@@ -1,0 +1,40 @@
+# Replay Local fork preparation modified 2026-10-23; upstream BasilForge/Kairos.
+bin/
+obj/
+.superpowers/
+*.user
+.vs/
+dist/
+third_party/whisper/bin/
+releases/
+
+# Ignore new working notes; previously tracked notes and history still require review
+docs/superpowers/
+docs/audits/
+
+# Local data and credentials; ignores do not remove tracked files or Git history
+/outputs/
+/work/
+/build/
+/runtime/
+/toolchain/
+/Clips/
+/logs/
+/settings.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+
+# Completed private planning notes and disposable editor backups
+/ALTERACAO-sem-legendas.md
+/especificacao-replay-local.md
+/plano-replay-local.md
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*~

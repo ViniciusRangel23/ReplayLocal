@@ -1,0 +1,5 @@
+# Replay Local fork preparation modified 2026-10-24; upstream BasilForge/Kairos.
+* text=auto
+*.png binary
+*.ico binary
+*.onnx binary
