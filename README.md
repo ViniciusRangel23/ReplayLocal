@@ -52,7 +52,9 @@ Replay instantâneo, gravação manual, atalhos, biblioteca, captura de tela/jan
 
 ## Usar
 
-O código deste fork está disponível em [ViniciusRangel23/ReplayLocal](https://github.com/ViniciusRangel23/ReplayLocal), na branch `replay-local`. Ainda não há uma release pública com executável deste fork. Os downloads do Kairos original são versões do projeto original, não do Replay Local.
+Baixe o **[ZIP portátil para Windows x64](https://github.com/ViniciusRangel23/ReplayLocal/releases/download/portable-2026.10.24/ReplayLocal-Windows-x64.zip)**, extraia a pasta inteira e abra **`ReplayLocal.exe`**. Não é necessário clonar, compilar ou instalar .NET/OBS. Os fontes e licenças ficam na [mesma release](https://github.com/ViniciusRangel23/ReplayLocal/releases/tag/portable-2026.10.24).
+
+O código está em [ViniciusRangel23/ReplayLocal](https://github.com/ViniciusRangel23/ReplayLocal), na branch `replay-local`. Os downloads do Kairos original são versões do projeto original, não do Replay Local.
 
 Em um pacote portátil do Replay Local, extraia a pasta inteira e abra `ReplayLocal.exe`. Em **Captura**, confirme a fonte, ative a captura e salve. Em **Áudio**, configure as fontes e clique em **Salvar**. Abra os clipes pela **Biblioteca** para editar.
 
@@ -78,6 +80,6 @@ Os testes de lógica e fixtures controladas têm uma lista revisada em `tools/ru
 
 O código derivado do Kairos e as modificações do Replay Local são distribuídos sob **GPL-2.0-or-later**. Veja [LICENSE](LICENSE). Os avisos originais de autoria, licença e ausência de garantia devem ser preservados; as dependências mantêm suas próprias licenças.
 
-Distribuir um executável exige cumprir as condições da GPL para o código-fonte correspondente e as obrigações das dependências incluídas. Um fork no GitHub, sozinho, não resolve todas as obrigações de uma release binária. O [roteiro de publicação](docs/PUBLISHING.md) registra as verificações pendentes antes de publicar código e executáveis.
+Distribuir um executável exige cumprir as condições da GPL para o código-fonte correspondente e as obrigações das dependências incluídas. O ZIP de fontes da release inclui também fontes, receitas e patches nativos. O pacote combinado usa GPL-3.0-or-later devido ao FFmpeg deste build; o código próprio mantém GPL-2.0-or-later. O [roteiro de publicação](docs/PUBLISHING.md) registra as verificações pendentes antes de publicar código e executáveis.
 
 A [documentação original da revisão base](https://github.com/BasilForge/Kairos/blob/04fd8bfc85f87b41a0c49e0fce6a778968e60401/README.md) permanece disponível no repositório original.

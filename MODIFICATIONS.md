@@ -289,3 +289,5 @@ Histórico de publicação reiniciado em 2026-10-24, a pedido do mantenedor: um 
 Revisão do README em 2026-10-24: detalhamento das extensões de áudio, exemplo de faixas na timeline, ajustes por trecho, exportação e distinção das funcionalidades herdadas do Kairos.
 
 Publicação do snapshot de código preparada em 2026-10-24 para https://github.com/ViniciusRangel23/ReplayLocal, fork de BasilForge/Kairos. Sem publicação de release binária nesta etapa.
+
+Preparação da distribuição portátil em 2026-10-24: instruções curtas no ZIP, download no README, fontes nativos identificados e ferramenta de empacotamento dos fontes. Texto GPLv3 incluído para a distribuição combinada, com o código próprio mantido sob GPL-2.0-or-later.

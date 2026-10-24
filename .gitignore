@@ -38,3 +38,7 @@ docs/audits/
 *.rej
 *.tmp
 *~
+
+# Python packaging helpers
+__pycache__/
+*.py[cod]

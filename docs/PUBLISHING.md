@@ -1,6 +1,6 @@
 # Preparação para publicar o fork
 
-O fork público de código é [ViniciusRangel23/ReplayLocal](https://github.com/ViniciusRangel23/ReplayLocal), com a branch `replay-local`. Este roteiro permanece como referência de publicação e para as verificações pendentes de uma futura release binária. Não foi definida uma release pública com executável ou um canal de suporte privado.
+O fork público de código é [ViniciusRangel23/ReplayLocal](https://github.com/ViniciusRangel23/ReplayLocal), com a branch `replay-local`. Este roteiro permanece como referência de publicação e para as verificações pendentes de uma futura release binária. A release portátil usa a tag `portable-2026.10.24`; um canal de suporte privado ainda precisa ser definido.
 
 ## Repositório
 
@@ -22,9 +22,9 @@ O fork público de código é [ViniciusRangel23/ReplayLocal](https://github.com/
 
 - Compilar do commit publicado e guardar dependências, instruções e scripts necessários para reproduzir o build.
 - Disponibilizar o fonte completo correspondente ao executável, incluindo alterações e scripts de compilação, na mesma release quando essa for a forma escolhida para cumprir a GPL.
-- Resolver a disponibilização dos fontes correspondentes dos componentes GPL nativos incluídos (libobs, plugins, FFmpeg e x264), nas versões e configurações efetivamente distribuídas. Uma lista de links para projetos ou apenas o ZIP C# não deve ser tratada como comprovação suficiente. Isso ainda precisa ser conferido antes de uma release pública binária.
+- Fornecer `ReplayLocal-Fontes-e-Licencas.zip` junto do portátil: snapshot exato do aplicativo, fonte oficial OBS, receitas e patches obs-deps e fontes das dependências conforme `licenses/native-sources.json`. Para novo runtime, repetir a identificação/conferência e atualizar o manifesto.
 - Conferir as condições de redistribuição do .NET, VC++, ONNX, modelos e fontes. Não declarar que todo o pacote está sob uma única licença.
 - Gerar manifesto e hashes, conferir o pacote e executar as verificações pertinentes. Informar versões, limitações, ausência de assinatura digital quando aplicável e data real das verificações.
 - Usar versão/tag própria do fork. Não substituir tags do Kairos nem anunciar instaladores/atualizações herdados como funcionando neste fork.
 
-O pacote portátil entregue localmente não foi republicado nem reconstruído por esta preparação de documentação. Seu manifesto continua apontando para o commit do build original.
+Cada pacote deve ser compilado do commit indicado em seu próprio manifesto. Pacotes antigos continuam vinculados a seus commits e não devem ser apresentados como builds posteriores.

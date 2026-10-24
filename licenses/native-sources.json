@@ -1,0 +1,250 @@
+{
+  "archives": [
+    {
+      "name": "FFmpeg",
+      "version": "8.1.2",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/99-ffmpeg.ps1",
+      "url": "https://github.com/FFmpeg/FFmpeg/archive/38b88335f99e76ed89ff3c93f877fdefce736c13.tar.gz",
+      "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+      "expected_sha256": null,
+      "filename": "FFmpeg-8.1.2-sources.tar.gz",
+      "sha256": "2ae7e42343cfffb811d15cfe98b6d005f082595fcdf034d30a4ff90cfed9f9c6",
+      "bytes": 16894057
+    },
+    {
+      "name": "amf",
+      "version": "1.5.0",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/80-amf.ps1",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF/archive/afed28d37aca1938da2eedc50599bb3535a987ec.tar.gz",
+      "commit": "afed28d37aca1938da2eedc50599bb3535a987ec",
+      "expected_sha256": null,
+      "filename": "amf-1.5.0-headers.zip",
+      "sha256": "1b3471a58d3fbd0fe7ba1bb3867a751de18ea10dc6045c56a9cd035126733d30",
+      "bytes": 157289,
+      "selection": "AMF interface headers plus upstream license files, the inputs used by deps.ffmpeg/80-amf.ps1",
+      "original_archive_sha256": "79ca6faacc982a49a23be0b3a58c4e57e8dc5c8f87b59605831ee77412e8a5b4"
+    },
+    {
+      "name": "aom",
+      "version": "3.13.1",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/40-aom.ps1",
+      "url": "https://aomedia.googlesource.com/aom/+archive/d772e334cc724105040382a977ebb10dfd393293.tar.gz",
+      "commit": "d772e334cc724105040382a977ebb10dfd393293",
+      "expected_sha256": null,
+      "filename": "aom-3.13.1-sources.tar.gz",
+      "sha256": "42f37c841630da18e948ff256323a901eb4756128025d6a25c259f9d6f10d6d6",
+      "bytes": 6323721
+    },
+    {
+      "name": "curl",
+      "version": "8.12.1",
+      "recipe": "obs-deps-2026-07-15/deps.windows/30-curl.ps1",
+      "url": "https://github.com/curl/curl/archive/57495c64871d18905a0941db9196ef90bafe9a29.tar.gz",
+      "commit": "57495c64871d18905a0941db9196ef90bafe9a29",
+      "expected_sha256": null,
+      "filename": "curl-8.12.1-sources.tar.gz",
+      "sha256": "0c7df3d2730de54d3e8eaa557c04ba60c5b68dab7a3904afd45b8de2bb72dc47",
+      "bytes": 3464188
+    },
+    {
+      "name": "lame",
+      "version": "3.100",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/60-lame.ps1",
+      "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+      "commit": null,
+      "expected_sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+      "filename": "lame-3.100-sources.tar.gz",
+      "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+      "bytes": 1524133
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/30-libogg.ps1",
+      "url": "https://github.com/xiph/ogg/archive/fa80aae9d50096160f2b56ada35527d7aee3f746.tar.gz",
+      "commit": "fa80aae9d50096160f2b56ada35527d7aee3f746",
+      "expected_sha256": null,
+      "filename": "libogg-1.3.5-sources.tar.gz",
+      "sha256": "e6a3581e2e09679ae3bce702dcc1f310207bad69600abce3e741214bb749e370",
+      "bytes": 254224
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.47",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/20-libpng.ps1",
+      "url": "https://sourceforge.net/projects/libpng/files/libpng16/1.6.47/lpng1647.zip",
+      "commit": null,
+      "expected_sha256": "883340209fccd5353e406a79e22a2d226fc61666b83e700ab1e367bc1a679101",
+      "filename": "libpng-1.6.47-sources.zip",
+      "sha256": "883340209fccd5353e406a79e22a2d226fc61666b83e700ab1e367bc1a679101",
+      "bytes": 1854163
+    },
+    {
+      "name": "librist",
+      "version": "0.2.7",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/70-librist.ps1",
+      "url": "https://code.videolan.org/rist/librist/-/archive/809390b3b75a259a704079d0fb4d8f1b5f7fa956/librist-809390b3b75a259a704079d0fb4d8f1b5f7fa956.tar.gz",
+      "commit": "809390b3b75a259a704079d0fb4d8f1b5f7fa956",
+      "expected_sha256": null,
+      "filename": "librist-0.2.7-sources.tar.gz",
+      "sha256": "fd725c491e4a72d7d2620adc1127355536bf01e1c8ffc874d32be42a822f8117",
+      "bytes": 2887291
+    },
+    {
+      "name": "libtheora",
+      "version": "1.1.1",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/50-libtheora.ps1",
+      "url": "https://github.com/xiph/theora/archive/refs/tags/v1.1.1.zip",
+      "commit": null,
+      "expected_sha256": null,
+      "filename": "libtheora-1.1.1-git-sources.zip",
+      "reference": "xiph/theora tag v1.1.1; Git source archive replaces generated release archive",
+      "sha256": "14ebb73889432275a5612bf9c280785f15fc9fdc66d542e8d325de2cf1842b13",
+      "bytes": 1243074
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/30-libvorbis.ps1",
+      "url": "https://gitlab.xiph.org/xiph/vorbis/-/archive/2eac96b03ff67953354cb0a649c08aa3a23267ef/vorbis-2eac96b03ff67953354cb0a649c08aa3a23267ef.tar.gz",
+      "commit": "2eac96b03ff67953354cb0a649c08aa3a23267ef",
+      "expected_sha256": null,
+      "filename": "libvorbis-1.3.7-sources.tar.gz",
+      "sha256": "a9323a23ef91e087504152764e3e50a845daf2b469713455689ff6bdc60d3514",
+      "bytes": 1238194
+    },
+    {
+      "name": "libvpx",
+      "version": "1.14.1",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/30-libvpx.ps1",
+      "url": "https://github.com/webmproject/libvpx/archive/refs/tags/v1.14.1.zip",
+      "commit": null,
+      "expected_sha256": "f40e4c7e7b4025d18be17a8225f8be2f26b349715399cd36c2de573fe976dfd7",
+      "filename": "libvpx-1.14.1-sources.zip",
+      "sha256": "f40e4c7e7b4025d18be17a8225f8be2f26b349715399cd36c2de573fe976dfd7",
+      "bytes": 6335358
+    },
+    {
+      "name": "mbedtls",
+      "version": "3.6.4",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/60-mbedtls.ps1",
+      "url": "https://github.com/Mbed-TLS/mbedtls/archive/c765c831e5c2a0971410692f92f7a81d6ec65ec2.tar.gz",
+      "commit": "c765c831e5c2a0971410692f92f7a81d6ec65ec2",
+      "expected_sha256": null,
+      "filename": "mbedtls-3.6.4-sources.tar.gz",
+      "sha256": "0f050462eabf814c7e3b37825efc4d8dd1caf6a3b3eeb350705ad818d6ca770a",
+      "bytes": 5614554
+    },
+    {
+      "name": "mbedtls-framework",
+      "version": "2a3e2c5ea053c14b745dbdf41f609b1edc6a72fa",
+      "url": "https://github.com/Mbed-TLS/mbedtls-framework/archive/2a3e2c5ea053c14b745dbdf41f609b1edc6a72fa.tar.gz",
+      "filename": "mbedtls-framework-2a3e2c5ea053.tar.gz",
+      "sha256": "f5934ffcad4c32a95f9281f0f95908eb471ee34df721fb9d6ad4adb9567f6b61",
+      "bytes": 788082,
+      "placement": "mbedtls/framework submodule"
+    },
+    {
+      "name": "nv-codec-headers",
+      "version": "13.0.19.0",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/70-nv-codec.ps1",
+      "url": "https://github.com/FFmpeg/nv-codec-headers/archive/e844e5b26f46bb77479f063029595293aa8f812d.tar.gz",
+      "commit": "e844e5b26f46bb77479f063029595293aa8f812d",
+      "expected_sha256": null,
+      "filename": "nv-codec-headers-13.0.19.0-sources.tar.gz",
+      "sha256": "42d72fbcca46e05a1c05a79f1cda1fedd68ba686b21adf917e05d908153645d9",
+      "bytes": 83409
+    },
+    {
+      "url": "https://github.com/obsproject/obs-deps/archive/refs/tags/2026-07-15.zip",
+      "sha256": "682237d459e52d1608e5b9eacb3ce70aa3f152b787ce1570c5d6bbe10d2b92d7",
+      "name": "obs-deps-build-recipes",
+      "version": "2026-07-15",
+      "filename": "obs-deps-2026-07-15.zip",
+      "bytes": 473769
+    },
+    {
+      "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Sources.tar.gz",
+      "sha256": "ec81fb66b03e75ddb3076b576f62679c39262e0e9960cef3e17a40dc5d68e6b4",
+      "github_digest": "sha256:ec81fb66b03e75ddb3076b576f62679c39262e0e9960cef3e17a40dc5d68e6b4",
+      "bytes": 16660601,
+      "name": "obs-studio",
+      "version": "32.2.2",
+      "filename": "OBS-Studio-32.2.2-Sources.tar.gz"
+    },
+    {
+      "name": "opus",
+      "version": "1.5.2",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/20-opus.ps1",
+      "url": "https://github.com/xiph/opus/archive/ddbe48383984d56acd9e1ab6a090c54ca6b735a6.tar.gz",
+      "commit": "ddbe48383984d56acd9e1ab6a090c54ca6b735a6",
+      "expected_sha256": null,
+      "filename": "opus-1.5.2-sources.tar.gz",
+      "sha256": "18e9d9e26565e279753aafb6823a482ef85ea9fddbfdcdbff8fd095b12dd96b6",
+      "bytes": 4184347
+    },
+    {
+      "name": "srt",
+      "version": "1.5.2",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/60-srt.ps1",
+      "url": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.2.zip",
+      "commit": null,
+      "expected_sha256": "2686f75533bd53ec917dab6129186b124b4d105eadaa6a84e83719ac3b5ae6bd",
+      "filename": "srt-1.5.2-sources.zip",
+      "sha256": "2686f75533bd53ec917dab6129186b124b4d105eadaa6a84e83719ac3b5ae6bd",
+      "bytes": 1874895
+    },
+    {
+      "name": "svt-av1",
+      "version": "2.3.0",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/30-svt-av1.ps1",
+      "url": "https://github.com/AOMediaCodec/SVT-AV1/archive/6e69def4ec283fe0b71195671245c3b768bebdef.tar.gz",
+      "commit": "6e69def4ec283fe0b71195671245c3b768bebdef",
+      "expected_sha256": null,
+      "filename": "svt-av1-2.3.0-sources.tar.gz",
+      "sha256": "8c7921e9f44f1dc18d51351fe353e6c86de306cc9e7e159a4d479dfc01456d6d",
+      "bytes": 10844802
+    },
+    {
+      "name": "x264",
+      "version": "r3106",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/40-x264.ps1",
+      "url": "https://github.com/mirror/x264/archive/eaa68fad9e5d201d42fde51665f2d137ae96baf0.tar.gz",
+      "commit": "eaa68fad9e5d201d42fde51665f2d137ae96baf0",
+      "expected_sha256": null,
+      "filename": "x264-r3106-sources.tar.gz",
+      "sha256": "580f07f08af23768074e5346bdf32c77b68b4d4e614f4998ea869b02fc29714d",
+      "bytes": 943274
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.1",
+      "recipe": "obs-deps-2026-07-15/deps.ffmpeg/10-zlib.ps1",
+      "url": "https://github.com/madler/zlib/archive/51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf.tar.gz",
+      "commit": "51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf",
+      "expected_sha256": null,
+      "filename": "zlib-1.3.1-sources.tar.gz",
+      "sha256": "d9e270d46252734aa49770fbc544125391617956266f220bd63216c834f3a522",
+      "bytes": 1572004
+    }
+  ],
+  "recipeMatch": {
+    "dependencyArchive": "https://github.com/obsproject/obs-deps/releases/download/2026-07-15/windows-deps-2026-07-15-x64.zip",
+    "sha256": "6f90e9598fa10cff5ad23cdcfae49b87868c07bf896b02cd464582b4ce2f2ba9",
+    "comparison": "Every PE section matches; full-file hashes differ after OBS code signing.",
+    "matchedDlls": [
+      "avcodec-62.dll",
+      "avdevice-62.dll",
+      "avfilter-11.dll",
+      "avformat-62.dll",
+      "avutil-60.dll",
+      "libcurl.dll",
+      "librist.dll",
+      "libx264-164.dll",
+      "srt.dll",
+      "swresample-6.dll",
+      "swscale-9.dll",
+      "zlib.dll"
+    ]
+  }
+}

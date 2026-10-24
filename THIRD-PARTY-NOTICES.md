@@ -11,7 +11,7 @@ Release builds include the following components, copied unmodified from OBS Stud
 | libobs and its graphics backends | `obs.dll`, `libobs-d3d11.dll`, `libobs-winrt.dll`, `w32-pthreads.dll`, `data/libobs` | GPL-2.0-or-later | obs-studio repository, tag 32.2.2 |
 | OBS plugins | `win-capture`, `win-wasapi`, `obs-nvenc`, `obs-ffmpeg`, `obs-qsv11`, `obs-x264` | GPL-2.0-or-later | obs-studio repository, tag 32.2.2 |
 | OBS helper programs | `obs-ffmpeg-mux.exe`, `obs-nvenc-test.exe`, `obs-amf-test.exe`, `obs-qsv-test.exe` | GPL-2.0-or-later | obs-studio repository, tag 32.2.2 |
-| FFmpeg libraries | `avcodec`, `avformat`, `avutil`, `avfilter`, `avdevice`, `swscale`, `swresample` | LGPL-2.1-or-later, GPL in this build | <https://ffmpeg.org> (OBS dependency build) |
+| FFmpeg libraries | `avcodec`, `avformat`, `avutil`, `avfilter`, `avdevice`, `swscale`, `swresample` | GPL-3.0-or-later in this build | <https://ffmpeg.org> (OBS dependency build) |
 | x264 | `libx264-*.dll` | GPL-2.0-or-later | <https://www.videolan.org/developers/x264.html> |
 | zlib | `zlib.dll` | zlib License | <https://zlib.net> |
 | libcurl | `libcurl.dll` | curl License (MIT-style) | <https://curl.se> |
@@ -55,7 +55,7 @@ The editor's text tool ships these fonts, unmodified, from Google Fonts (<https:
 Their license texts ship as `licenses/Almarai-OFL.txt`, `licenses/Lalezar-OFL.txt`, `licenses/Rakkas-OFL.txt`, `licenses/ArefRuqaa-OFL.txt`,
 `licenses/Cairo-OFL.txt`, `licenses/Tajawal-OFL.txt`, `licenses/Changa-OFL.txt`, `licenses/ReemKufi-OFL.txt` and `licenses/Lemonada-OFL.txt`.
 
-Replay Local release executables must be accompanied by their complete corresponding source as required by the GPL, including modified source and build scripts. The source commit is recorded in `dependency-manifest.json`. This notice does not itself supply the corresponding source for native dependencies; distribution of their exact source/build materials still needs verification before a public binary release. See [docs/PUBLISHING.md](docs/PUBLISHING.md).
+Replay Local release executables must be accompanied by their complete corresponding source as required by the GPL, including modified source and build scripts. The source commit is recorded in `dependency-manifest.json`. The companion `ReplayLocal-Fontes-e-Licencas.zip` supplies the exact application snapshot, official OBS source, pinned obs-deps recipes and patches, and dependency sources. `licenses/native-sources.json` records identities and hashes; `licenses/FFmpeg-build-configuration.txt` records the shipped FFmpeg options. The complete native dependency PE sections match the prebuilt package pinned by OBS; whole-file hashes differ after OBS signing. See [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
 Replay Local removes the browser and updater. It includes Microsoft .NET 10.0.13 (MIT, `licenses/dotnet-LICENSE.txt` and `licenses/dotnet-ThirdPartyNotices.txt`) and the signed Microsoft Visual C++ 14.44 app-local redistribution files from Visual Studio Build Tools. See Microsoft's redistribution terms: <https://learn.microsoft.com/visualstudio/releases/2022/redistribution>.
 
@@ -70,3 +70,7 @@ The emoji pictures in the caption picker (`src/Kairos/Ui/Assets/Emoji`) are Micr
 The name in the sidebar (`src/Kairos/Ui/Assets/wordmark-en.png`, `wordmark-ar.png`) is drawn from
 **Fraunces** (Undercase Type) and **Aref Ruqaa** (Abdullah Aref), both under the SIL Open Font License 1.1.
 The fonts themselves are not shipped.
+
+## License version used by the combined portable distribution
+
+The shipped FFmpeg reports **GPL version 3 or later** (recorded in `licenses/FFmpeg-build-configuration.txt`). The combined portable distribution is supplied under **GPL-3.0-or-later**, using the later-version option of the GPL-2.0-or-later parts. Application source and original Kairos notices remain GPL-2.0-or-later. Other components retain their own notices and licenses; `licenses/GPL-3.0.txt` supplies the GPLv3 text.
